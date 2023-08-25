@@ -1,6 +1,7 @@
 from flask import Flask, Response
 from threading import Thread
-from generator import gen
+from scripts.generator import gen
+
 
 app = Flask(__name__)
 
